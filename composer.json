@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:sergiors/prelude.git"
+        }
+    ],
+    "require": {
+        "prelude/prelude": "dev-master"
+    }
+}

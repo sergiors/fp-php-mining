@@ -1,0 +1,122 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2506ce0ca9b72ab54a6bd33a742cf022",
+    "packages": [
+        {
+            "name": "prelude/prelude",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sergiors/prelude.git",
+                "reference": "193cf5ab2c3e8c9ba16e984071db3f2ea7858a2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sergiors/prelude/zipball/193cf5ab2c3e8c9ba16e984071db3f2ea7858a2f",
+                "reference": "193cf5ab2c3e8c9ba16e984071db3f2ea7858a2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "pdepend/pdepend": "^2.2",
+                "phing/phing": "^2.14",
+                "phpbench/phpbench": "@dev",
+                "phploc/phploc": "^3.0",
+                "phpmd/phpmd": "^2.4",
+                "phpunit/phpunit": "^5.5",
+                "sebastian/phpcpd": "^2.0",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/consts.php",
+                    "src/allPass.php",
+                    "src/always.php",
+                    "src/anyPass.php",
+                    "src/append.php",
+                    "src/compose.php",
+                    "src/cond.php",
+                    "src/divide.php",
+                    "src/drop.php",
+                    "src/equals.php",
+                    "src/filter.php",
+                    "src/find.php",
+                    "src/flatten.php",
+                    "src/get.php",
+                    "src/getIn.php",
+                    "src/gt.php",
+                    "src/gte.php",
+                    "src/has.php",
+                    "src/head.php",
+                    "src/id.php",
+                    "src/ifElse.php",
+                    "src/isEmpty.php",
+                    "src/indexOf.php",
+                    "src/join.php",
+                    "src/lt.php",
+                    "src/lte.php",
+                    "src/map.php",
+                    "src/maybe.php",
+                    "src/merge.php",
+                    "src/multiply.php",
+                    "src/not.php",
+                    "src/partial.php",
+                    "src/pipe.php",
+                    "src/prepend.php",
+                    "src/prop.php",
+                    "src/reduce.php",
+                    "src/replace.php",
+                    "src/slice.php",
+                    "src/split.php",
+                    "src/tail.php",
+                    "src/take.php",
+                    "src/toString.php",
+                    "src/typeof.php",
+                    "src/unless.php",
+                    "src/when.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Prelude\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sérgio Rafael Siqueira",
+                    "email": "sergio@inbep.com.br"
+                }
+            ],
+            "description": "Functional library",
+            "keywords": [
+                "functional-programming",
+                "monad"
+            ],
+            "support": {
+                "source": "https://github.com/sergiors/prelude/tree/1.0.1-alpha",
+                "issues": "https://github.com/sergiors/prelude/issues"
+            },
+            "time": "2017-12-04T17:58:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "prelude/prelude": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
